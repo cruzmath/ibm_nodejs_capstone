@@ -33,10 +33,6 @@ const logger = require('./logger');
 // Search API Task 1: import the searchRoutes and store in a constant called searchRoutes
 //{{insert code here}}
 
-
-const pinoHttp = require('pino-http');
-const logger = require('./logger');
-
 app.use(pinoHttp({ logger }));
 
 // Use Routes
